@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Direct Debit set up — SwitchMate UK</title>
+  <meta name="robots" content="noindex" />
+  <style>
+    body {
+      background: #0F172A;
+      color: #F8FAFC;
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      min-height: 100vh;
+      margin: 0;
+      padding: 24px;
+      text-align: center;
+    }
+    .check { font-size: 64px; color: #10B981; margin-bottom: 16px; }
+    h1 { font-size: 22px; font-weight: 800; margin: 0 0 8px; }
+    p  { font-size: 15px; color: #94A3B8; line-height: 1.5; max-width: 320px; margin: 0 0 24px; }
+    .btn {
+      background: #10B981;
+      color: #0F172A;
+      font-weight: 800;
+      font-size: 16px;
+      border: none;
+      border-radius: 12px;
+      padding: 14px 32px;
+      cursor: pointer;
+      text-decoration: none;
+      display: inline-block;
+    }
+    .btn:active { opacity: 0.85; }
+  </style>
+</head>
+<body>
+  <div class="check">✓</div>
+  <h1>Direct Debit authorised</h1>
+  <p>Your Direct Debit is set up. If SwitchMate UK doesn't reopen automatically, tap the button below.</p>
+  <button class="btn" id="openBtn">Return to SwitchMate UK</button>
+
+  <script>
+    // Fire the app deep-link immediately (some browsers block auto-redirect to custom schemes).
+    try { window.location.replace('switchmate://success'); } catch (e) {}
+    document.getElementById('openBtn').addEventListener('click', function () {
+      window.location.href = 'switchmate://success';
+    });
+  </script>
+</body>
+</html>
