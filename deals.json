@@ -59,9 +59,7 @@
       "You must still hold the account and the 2 Direct Debits on the day Santander pays the bonus.",
       "You must live in the UK."
     ],
-    "burnerFriendly": true,
-    "expiryDate": "2026-10-07",
-    "expiryDateSource": "Stated on Santander's own switching page, not in the offer T&C PDF. Re-check the page if this date matters."
+    "burnerFriendly": true
   },
   {
     "id": "first-direct-175",
