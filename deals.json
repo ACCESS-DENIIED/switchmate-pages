@@ -31,6 +31,9 @@
     "directDebitsRequired": 2,
     "minDepositRequired": 1500,
     "appLoginRequired": false,
+    "extraRequirements": [
+      "Pay at least £200 into a Santander Regular Saver held in your name within 60 days."
+    ],
     "timeToBonusDays": 60,
     "description": "Get £240 free on a fee-free account, plus 8% interest on a linked regular saver.",
     "directSwitchUrl": "https://www.santander.co.uk/current-accounts/everyday-current-account",
@@ -57,7 +60,7 @@
     "expiryDate": "2026-09-02",
     "directDebitsRequired": 2,
     "minDepositRequired": 1000,
-    "cardSpendRequired": 5,
+    "cardPaymentsRequired": 5,
     "appLoginRequired": true,
     "timeToBonusDays": 45,
     "description": "Get £220 free, top customer service and a 0% overdraft.",
@@ -81,6 +84,7 @@
     "status": "active",
     "directDebitsRequired": 2,
     "minDepositRequired": 1000,
+    "cardPaymentsRequired": 1,
     "appLoginRequired": true,
     "timeToBonusDays": 10,
     "description": "Get £175 free, plus 5% interest on up to £1,500 for a year and 1% cashback for 12 months.",
