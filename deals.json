@@ -11,6 +11,7 @@
     "timeToBonusDays": 60,
     "description": "Get £220 free — the biggest switch cash around right now. Plus a 5% regular saver.",
     "directSwitchUrl": "https://www.hsbc.co.uk/current-accounts/products/bank-account/",
+    "termsUrl": "https://www.hsbc.co.uk/current-accounts/switching-to-hsbc/",
     "rules": [
       "Open a new HSBC Bank Account on their app (no joint accounts).",
       "Move your old card over within 60 days with 2 regular monthly payments connected.",
@@ -37,6 +38,7 @@
     "timeToBonusDays": 60,
     "description": "Get £240 free on a fee-free account, plus 8% interest on a linked regular saver.",
     "directSwitchUrl": "https://www.santander.co.uk/current-accounts/everyday-current-account",
+    "termsUrl": "https://www.santander.co.uk/assets/s3fs-public/documents/Santander_%C2%A3240_Switch_%26_Save_offer_Terms_and_conditions_%28%E2%80%98These_Terms%E2%80%99%29_COREMC0855SEP26PUBCDT%20.pdf",
     "rules": [
       "Open a Santander Everyday current account and start a full switch using the Current Account Switch Service.",
       "Within 60 days: complete the switch, pay in £1,500, and have 2 active household Direct Debits.",
@@ -65,6 +67,7 @@
     "timeToBonusDays": 45,
     "description": "Get £220 free, top customer service and a 0% overdraft.",
     "directSwitchUrl": "https://www.firstdirect.com/banking/current-accounts/1st-account/",
+    "termsUrl": "https://www.firstdirect.com/banking/switching-bank-accounts/",
     "rules": [
       "Register for the offer with your email via the First Direct link.",
       "Open your account by 2 September.",
@@ -89,6 +92,7 @@
     "timeToBonusDays": 10,
     "description": "Get £175 free, plus 5% interest on up to £1,500 for a year and 1% cashback for 12 months.",
     "directSwitchUrl": "https://www.nationwide.co.uk/current-accounts/flexdirect/",
+    "termsUrl": "https://www.nationwide.co.uk/-/assets/nationwidecouk/documents/current-accounts/resources/smd1863-current-account-switch-offer-terms.pdf",
     "rules": [
       "Open a FlexDirect account.",
       "Move your old card over with 2 regular monthly payments within 28 days.",
@@ -111,6 +115,7 @@
     "timeToBonusDays": 30,
     "description": "Get £200 free, plus regular cashback and a 5.25% savings rate.",
     "directSwitchUrl": "https://www.natwest.com/current-accounts/reward-account/",
+    "termsUrl": "https://www.natwest.com/content/dam/natwest/personal/current-accounts/documents/switch-offer-terms/nw-switch-offer-terms-may-2026.pdf",
     "rules": [
       "Open a NatWest Reward account and switch in an old card with 2 regular monthly payments.",
       "Pay in £1,250 each month to get the cashback.",
@@ -134,6 +139,7 @@
     "timeToBonusDays": 60,
     "description": "Get £200 free when you switch to an RBS Select or Reward account. No Direct Debits needed.",
     "directSwitchUrl": "https://www.rbs.co.uk/current-accounts/switch-your-bank-account-to-rbs.html",
+    "termsUrl": "https://www.rbs.co.uk/content/dam/royal_bank_of_scotland/personal/current-accounts/documents/switch-offer-terms/rbs-switch-offer-terms-may-2026.pdf",
     "rules": [
       "Open an RBS Select or Reward account.",
       "Request a full switch using the Current Account Switch Service, closing your old account.",
