@@ -24,31 +24,33 @@
     "burnerFriendly": true
   },
   {
-    "id": "barclays-200",
-    "bankName": "Barclays",
-    "bonusAmount": 200,
-    "status": "expiring_soon",
-    "expiryDate": "2026-08-27",
+    "id": "santander-240",
+    "bankName": "Santander Everyday",
+    "bonusAmount": 240,
+    "status": "active",
     "directDebitsRequired": 2,
-    "minDepositRequired": 2000,
-    "appLoginRequired": true,
-    "timeToBonusDays": 28,
-    "description": "Get £200 free with a simple account — start your switch by 27 August.",
-    "directSwitchUrl": "https://www.barclays.co.uk/current-accounts/barclays-account/",
+    "minDepositRequired": 1500,
+    "appLoginRequired": false,
+    "timeToBonusDays": 60,
+    "description": "Get £240 free on a fee-free account, plus 8% interest on a linked regular saver.",
+    "directSwitchUrl": "https://www.santander.co.uk/current-accounts/everyday-current-account",
     "rules": [
-      "Open a sole Barclays Bank Account on their app (no joint accounts).",
-      "Pay in £2,000 within 30 days.",
-      "Start a switch of an old card with 2 regular monthly payments by 27 August, completed within 30 days."
+      "Open a Santander Everyday current account and start a full switch using the Current Account Switch Service.",
+      "Within 60 days: complete the switch, pay in £1,500, and have 2 active household Direct Debits.",
+      "Also pay at least £200 into a Santander Regular Saver held in your name within 60 days.",
+      "By 7 October 2026: start the switch from an account that is not Santander, cahoot or Cater Allen."
     ],
     "exclusions": [
-      "You can't claim if you've had a previous Barclays switch bonus.",
-      "You can't claim if you opened a Barclays current account on or before 9 June 2026.",
-      "You must live in the UK and be 18 or older."
+      "You can't claim if you, or anyone on the account, held a Santander current account on 1 January 2026.",
+      "You can't claim if anyone named on the account has already had a Santander switch bonus.",
+      "The Direct Debits must be household bills such as council tax, energy, water, broadband, mobile, home phone or paid-for TV.",
+      "You must still hold the account and the 2 Direct Debits on the day Santander pays the bonus.",
+      "You must live in the UK."
     ],
     "burnerFriendly": true
   },
   {
-    "id": "first-direct-175",
+    "id": "first-direct-220",
     "bankName": "First Direct",
     "bonusAmount": 220,
     "status": "active",
@@ -58,7 +60,7 @@
     "cardSpendRequired": 5,
     "appLoginRequired": true,
     "timeToBonusDays": 45,
-    "description": "Get £175 free plus a £25 Amazon voucher (so £200 in total), top customer service and a 0% overdraft.",
+    "description": "Get £220 free, top customer service and a 0% overdraft.",
     "directSwitchUrl": "https://www.firstdirect.com/banking/current-accounts/1st-account/",
     "rules": [
       "Register for the offer with your email via the First Direct link.",
@@ -118,24 +120,28 @@
     "burnerFriendly": true
   },
   {
-    "id": "coop-200",
-    "bankName": "Co-op Bank",
+    "id": "rbs-200",
+    "bankName": "RBS Select",
     "bonusAmount": 200,
     "status": "active",
-    "directDebitsRequired": 2,
-    "minDepositRequired": 1500,
+    "directDebitsRequired": 0,
+    "minDepositRequired": 1250,
     "appLoginRequired": true,
-    "timeToBonusDays": 30,
-    "description": "Get up to £200 total: £125 to switch, then £25 a month for three months. Plus a 7% savings rate.",
-    "directSwitchUrl": "https://www.co-operativebank.co.uk/current-accounts/",
+    "timeToBonusDays": 60,
+    "description": "Get £200 free when you switch to an RBS Select or Reward account. No Direct Debits needed.",
+    "directSwitchUrl": "https://www.rbs.co.uk/current-accounts/switch-your-bank-account-to-rbs.html",
     "rules": [
-      "Open a new Co-op Bank Current Account and switch in an old card within two weeks.",
-      "Complete a full move within eight weeks.",
-      "Within 30 days: pay in £1,500, connect 2 regular monthly payments, and make 5 card payments."
+      "Open an RBS Select or Reward account.",
+      "Request a full switch using the Current Account Switch Service, closing your old account.",
+      "Within 60 days of the switch completing: pay in £1,250 and log in to the RBS mobile app."
     ],
     "exclusions": [
-      "You can't claim if you've had switch cash from Co-op Bank since Nov 1, 2022.",
-      "You must live in the UK and be 18 or older."
+      "You can't claim if you held an RBS current account on 6 May 2026.",
+      "You can't claim if you have ever had a switch bonus from RBS, NatWest or Ulster Bank.",
+      "You can't switch from an account held with RBS, NatWest or Ulster Bank.",
+      "Student, Graduate, Foundation, Reward Black, Premier Select and Premier Reward accounts do not qualify.",
+      "Each payment must stay in the account for at least 24 hours to count towards the £1,250.",
+      "You must live in the UK."
     ],
     "burnerFriendly": true
   }
