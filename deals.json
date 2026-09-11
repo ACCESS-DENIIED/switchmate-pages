@@ -1,0 +1,142 @@
+[
+  {
+    "id": "hsbc-220",
+    "bankName": "HSBC",
+    "bonusAmount": 220,
+    "status": "active",
+    "directDebitsRequired": 2,
+    "minDepositRequired": 2000,
+    "cardSpendRequired": 500,
+    "appLoginRequired": true,
+    "timeToBonusDays": 60,
+    "description": "Get £220 free — the biggest switch cash around right now. Plus a 5% regular saver.",
+    "directSwitchUrl": "https://www.hsbc.co.uk/current-accounts/products/bank-account/",
+    "rules": [
+      "Open a new HSBC Bank Account on their app (no joint accounts).",
+      "Move your old card over within 60 days with 2 regular monthly payments connected.",
+      "Pay in £2,000 and spend £500 on the card within 60 days."
+    ],
+    "exclusions": [
+      "You can't claim if you've had a HSBC or First Direct current account since Jan 1, 2023.",
+      "The HSBC Basic Bank Account does not qualify.",
+      "Joint accounts do not qualify. You must live in the UK and be 18 or older."
+    ],
+    "burnerFriendly": true
+  },
+  {
+    "id": "barclays-200",
+    "bankName": "Barclays",
+    "bonusAmount": 200,
+    "status": "expiring_soon",
+    "expiryDate": "2026-08-27",
+    "directDebitsRequired": 2,
+    "minDepositRequired": 2000,
+    "appLoginRequired": true,
+    "timeToBonusDays": 28,
+    "description": "Get £200 free with a simple account — start your switch by 27 August.",
+    "directSwitchUrl": "https://www.barclays.co.uk/current-accounts/barclays-account/",
+    "rules": [
+      "Open a sole Barclays Bank Account on their app (no joint accounts).",
+      "Pay in £2,000 within 30 days.",
+      "Start a switch of an old card with 2 regular monthly payments by 27 August, completed within 30 days."
+    ],
+    "exclusions": [
+      "You can't claim if you've had a previous Barclays switch bonus.",
+      "You can't claim if you opened a Barclays current account on or before 9 June 2026.",
+      "You must live in the UK and be 18 or older."
+    ],
+    "burnerFriendly": true
+  },
+  {
+    "id": "first-direct-175",
+    "bankName": "First Direct",
+    "bonusAmount": 175,
+    "status": "active",
+    "expiryDate": "2026-09-02",
+    "directDebitsRequired": 2,
+    "minDepositRequired": 1000,
+    "cardSpendRequired": 5,
+    "appLoginRequired": true,
+    "timeToBonusDays": 45,
+    "description": "Get £175 free plus a £25 Amazon voucher (so £200 in total), top customer service and a 0% overdraft.",
+    "directSwitchUrl": "https://www.firstdirect.com/banking/current-accounts/1st-account/",
+    "rules": [
+      "Register for the offer with your email via the First Direct link.",
+      "Open your account by 2 September.",
+      "Within 45 days: move your old card over with 2 regular monthly payments, pay in £1,000, and make 5 card payments."
+    ],
+    "exclusions": [
+      "You must never have had ANY First Direct product.",
+      "You can't claim if you've opened a HSBC current account since Jan 1, 2018.",
+      "You must live in the UK and be 18 or older."
+    ],
+    "burnerFriendly": true
+  },
+  {
+    "id": "nationwide-175",
+    "bankName": "Nationwide FlexDirect",
+    "bonusAmount": 175,
+    "status": "active",
+    "directDebitsRequired": 2,
+    "minDepositRequired": 1000,
+    "appLoginRequired": true,
+    "timeToBonusDays": 10,
+    "description": "Get £175 free, plus 5% interest on up to £1,500 for a year and 1% cashback for 12 months.",
+    "directSwitchUrl": "https://www.nationwide.co.uk/current-accounts/flexdirect/",
+    "rules": [
+      "Open a FlexDirect account.",
+      "Move your old card over with 2 regular monthly payments within 28 days.",
+      "Within 31 days: pay in £1,000 and make at least one card payment."
+    ],
+    "exclusions": [
+      "You can't claim if you've had Nationwide free cash since 2021, unless switching between sole and joint.",
+      "You must live in the UK and be 18 or older."
+    ],
+    "burnerFriendly": true
+  },
+  {
+    "id": "natwest-200",
+    "bankName": "NatWest Reward",
+    "bonusAmount": 200,
+    "status": "active",
+    "directDebitsRequired": 2,
+    "minDepositRequired": 1250,
+    "appLoginRequired": true,
+    "timeToBonusDays": 30,
+    "description": "Get £200 free, plus regular cashback and a 5.25% savings rate.",
+    "directSwitchUrl": "https://www.natwest.com/current-accounts/reward-account/",
+    "rules": [
+      "Open a NatWest Reward account and switch in an old card with 2 regular monthly payments.",
+      "Pay in £1,250 each month to get the cashback.",
+      "Log in to the NatWest app."
+    ],
+    "exclusions": [
+      "You can't claim if you've had a previous NatWest, RBS or Ulster Bank switch bonus.",
+      "You can't claim if you opened a NatWest current account on or after 6 May 2026.",
+      "You must live in the UK and be 18 or older."
+    ],
+    "burnerFriendly": true
+  },
+  {
+    "id": "coop-200",
+    "bankName": "Co-op Bank",
+    "bonusAmount": 200,
+    "status": "active",
+    "directDebitsRequired": 2,
+    "minDepositRequired": 1500,
+    "appLoginRequired": true,
+    "timeToBonusDays": 30,
+    "description": "Get up to £200 total: £125 to switch, then £25 a month for three months. Plus a 7% savings rate.",
+    "directSwitchUrl": "https://www.co-operativebank.co.uk/current-accounts/",
+    "rules": [
+      "Open a new Co-op Bank Current Account and switch in an old card within two weeks.",
+      "Complete a full move within eight weeks.",
+      "Within 30 days: pay in £1,500, connect 2 regular monthly payments, and make 5 card payments."
+    ],
+    "exclusions": [
+      "You can't claim if you've had switch cash from Co-op Bank since Nov 1, 2022.",
+      "You must live in the UK and be 18 or older."
+    ],
+    "burnerFriendly": true
+  }
+]
