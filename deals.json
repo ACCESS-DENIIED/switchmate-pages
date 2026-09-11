@@ -59,36 +59,35 @@
       "You must still hold the account and the 2 Direct Debits on the day Santander pays the bonus.",
       "You must live in the UK."
     ],
-    "burnerFriendly": true
+    "burnerFriendly": true,
+    "expiryDate": "2026-10-07"
   },
   {
-    "id": "first-direct-220",
+    "id": "first-direct-175",
     "bankName": "First Direct",
-    "bonusAmount": 220,
+    "bonusAmount": 175,
     "status": "active",
-    "expiryDate": "2026-09-02",
     "directDebitsRequired": 2,
     "minDepositRequired": 1000,
     "cardPaymentsRequired": 5,
     "appLoginRequired": true,
     "timeToBonusDays": 45,
-    "description": "Get £220 free, top customer service and a 0% overdraft.",
+    "description": "Get £175 free, top customer service and a 0% overdraft.",
     "directSwitchUrl": "https://www.firstdirect.com/banking/current-accounts/1st-account/",
     "termsUrl": "https://www.firstdirect.com/content/dam/wpb/fsdt/en/documents/pdf/switch-offer-terms-and-conditions.pdf",
     "rules": [
-      "Register for the offer with your email via the First Direct link.",
-      "Open your account by 2 September.",
-      "Within 45 days: move your old card over with 2 regular monthly payments, pay in £1,000, and make 5 card payments."
+      "Open a 1st Account on or after 9 September, while the offer is available.",
+      "Within 45 days: switch using the Current Account Switch Service with at least 2 Direct Debits or standing orders.",
+      "Within 45 days: pay in £1,000. This can be one payment or several.",
+      "Within 45 days: make at least 5 debit card payments and log in to online banking or the app."
     ],
     "exclusions": [
-      "You cannot claim if you have ever held any first direct product.",
+      "You cannot claim if you are already a first direct customer or have held any first direct product.",
       "You cannot claim if you have opened an HSBC current account on or after 1 January 2018.",
+      "Gambling transactions, credit card or insurance payments, cash withdrawals and card to card payments do not count towards the 5 card payments.",
       "You must live in the UK and be 18 or over."
     ],
-    "burnerFriendly": true,
-    "extraRequirements": [
-      "Your card payments can be in store or online, using your card or a digital wallet such as Apple Pay or Google Pay."
-    ]
+    "burnerFriendly": true
   },
   {
     "id": "nationwide-175",
