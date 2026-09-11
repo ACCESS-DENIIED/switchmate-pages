@@ -50,7 +50,7 @@
   {
     "id": "first-direct-175",
     "bankName": "First Direct",
-    "bonusAmount": 175,
+    "bonusAmount": 220,
     "status": "active",
     "expiryDate": "2026-09-02",
     "directDebitsRequired": 2,
