@@ -1,5 +1,58 @@
 [
   {
+    "id": "natwest-200",
+    "bankName": "NatWest Reward",
+    "bonusAmount": 200,
+    "status": "active",
+    "directDebitsRequired": 0,
+    "minDepositRequired": 1250,
+    "depositHoldHours": 24,
+    "appLoginRequired": true,
+    "timeToBonusDays": 60,
+    "description": "Get £200 free, plus regular cashback and a 5.25% savings rate.",
+    "directSwitchUrl": "https://www.natwest.com/current-accounts/reward-account/",
+    "termsUrl": "https://www.natwest.com/content/dam/natwest/personal/current-accounts/documents/switch-offer-terms/nw-switch-offer-terms-may-2026.pdf",
+    "rules": [
+      "Open a NatWest Select or Reward account.",
+      "Full switch using the Current Account Switch Service.",
+      "Within 60 days of the switch completing: pay in £1,250 and log in to the NatWest mobile app."
+    ],
+    "exclusions": [
+      "You must live in the UK and be 18 or over.",
+      "You held a NatWest current account on 6 May 2026.",
+      "Anyone on the account has had a NatWest, RBS or Ulster Bank switch offer before.",
+      "Your account must not be a Student, Graduate, Foundation, Reward Black, Premier Select or Premier Reward account."
+    ],
+    "burnerFriendly": true
+  },
+  {
+    "id": "rbs-200",
+    "bankName": "RBS Select",
+    "bonusAmount": 200,
+    "status": "active",
+    "directDebitsRequired": 0,
+    "minDepositRequired": 1250,
+    "depositHoldHours": 24,
+    "appLoginRequired": true,
+    "timeToBonusDays": 60,
+    "description": "Get £200 free when you switch to an RBS Select or Reward account. No Direct Debits needed.",
+    "directSwitchUrl": "https://www.rbs.co.uk/current-accounts/switch-your-bank-account-to-rbs.html",
+    "termsUrl": "https://www.rbs.co.uk/content/dam/royal_bank_of_scotland/personal/current-accounts/documents/switch-offer-terms/rbs-switch-offer-terms-may-2026.pdf",
+    "rules": [
+      "Be a UK resident.",
+      "Open an RBS Select or Reward account.",
+      "Full switch using the Current Account Switch Service.",
+      "Within 60 days of the switch completing: pay in £1,250 and log in to the RBS mobile app."
+    ],
+    "exclusions": [
+      "You held an RBS current account on 6 May 2026.",
+      "Anyone on the account has had an RBS, NatWest or Ulster Bank switch offer before.",
+      "Your account must not be a Student, Graduate, Foundation, Reward Black, Premier Select or Premier Reward account.",
+      "You cannot switch from an RBS, NatWest or Ulster Bank account."
+    ],
+    "burnerFriendly": true
+  },
+  {
     "id": "hsbc-220",
     "bankName": "HSBC",
     "bonusAmount": 220,
@@ -18,9 +71,9 @@
       "Pay in £2,000 and spend £500 on the card within 60 days."
     ],
     "exclusions": [
-      "You cannot claim if you are already an HSBC UK or first direct customer.",
-      "You cannot claim if you have opened an HSBC UK or first direct current account on or after 1 January 2023.",
-      "You cannot claim if you open a Basic Bank Account or a Premier Bank Account instead.",
+      "You are already an HSBC UK or first direct customer.",
+      "You have opened an HSBC UK or first direct current account on or after 1 January 2023.",
+      "You open a Basic Bank Account or a Premier Bank Account instead.",
       "You must live in the UK and be 18 or over.",
       "You must not be an HSBC staff member."
     ],
@@ -46,15 +99,15 @@
     "directSwitchUrl": "https://www.santander.co.uk/current-accounts/everyday-current-account",
     "termsUrl": "https://www.santander.co.uk/assets/s3fs-public/documents/Santander_%C2%A3240_Switch_%26_Save_offer_Terms_and_conditions_%28%E2%80%98These_Terms%E2%80%99%29_COREMC0855SEP26PUBCDT%20.pdf",
     "rules": [
-      "Open a Santander Everyday current account and start a full switch using the Current Account Switch Service.",
+      "Open a Santander Everyday account. Full switch using the Current Account Switch Service.",
       "Within 60 days: complete the switch, pay in £1,500, and have 2 active household Direct Debits.",
       "Also pay at least £200 into a Santander Regular Saver held in your name within 60 days.",
       "By 7 October 2026: start the switch from an account that is not Santander, cahoot or Cater Allen.",
       "Keep both the Regular Saver and the Everyday account open, with 2 active Household Direct Debits, on the day Santander pays the £240."
     ],
     "exclusions": [
-      "You can't claim if you, or anyone on the account, held a Santander current account on 1 January 2026.",
-      "You can't claim if anyone named on the account has already had a Santander switch bonus.",
+      "You, or anyone on the account, held a Santander current account on 1 January 2026.",
+      "Anyone named on the account has already had a Santander switch bonus.",
       "The Direct Debits must be household bills such as council tax, energy, water, broadband, mobile, home phone or paid-for TV.",
       "You must still hold the account and the 2 Direct Debits on the day Santander pays the bonus.",
       "You must live in the UK."
@@ -81,8 +134,8 @@
       "Within 45 days: make at least 5 debit card payments and log in to online banking or the app."
     ],
     "exclusions": [
-      "You cannot claim if you are already a first direct customer or have held any first direct product.",
-      "You cannot claim if you have opened an HSBC current account on or after 1 January 2018.",
+      "You are already a first direct customer or have held any first direct product.",
+      "You have opened an HSBC current account on or after 1 January 2018.",
       "Gambling transactions, credit card or insurance payments, cash withdrawals and card to card payments do not count towards the 5 card payments.",
       "You must live in the UK and be 18 or over."
     ],
@@ -107,74 +160,15 @@
       "Within 31 days: pay in £1,000 and make at least one card payment."
     ],
     "exclusions": [
-      "You cannot claim if you have had a Nationwide switch offer before, for a sole or joint account, since 2021.",
-      "You cannot claim if you are switching from a Nationwide or Virgin Money account.",
-      "You cannot claim if you requested your switch before 21 May 2026.",
+      "You have had a Nationwide switch offer before, for a sole or joint account, since 2021.",
+      "You are switching from a Nationwide or Virgin Money account.",
+      "You requested your switch before 21 May 2026.",
       "You must be switching a full account, not part of one."
     ],
     "burnerFriendly": true,
     "extraRequirements": [
       "Your switch must complete within 28 days of opening your Nationwide account.",
       "Gambling and crypto transactions, cash withdrawals and money transfers do not count towards the card payment."
-    ]
-  },
-  {
-    "id": "natwest-200",
-    "bankName": "NatWest Reward",
-    "bonusAmount": 200,
-    "status": "active",
-    "directDebitsRequired": 0,
-    "minDepositRequired": 1250,
-    "appLoginRequired": true,
-    "timeToBonusDays": 60,
-    "description": "Get £200 free, plus regular cashback and a 5.25% savings rate.",
-    "directSwitchUrl": "https://www.natwest.com/current-accounts/reward-account/",
-    "termsUrl": "https://www.natwest.com/content/dam/natwest/personal/current-accounts/documents/switch-offer-terms/nw-switch-offer-terms-may-2026.pdf",
-    "rules": [
-      "Open a NatWest Select or Reward account.",
-      "Request a full switch using the Current Account Switch Service, closing your old account.",
-      "Within 60 days of the switch completing: pay in £1,250 and log in to the NatWest mobile app.",
-      "The £1,250 must stay in the account for at least 24 hours to count."
-    ],
-    "exclusions": [
-      "You must live in the UK and be 18 or over.",
-      "You cannot claim if you held a NatWest current account on 6 May 2026.",
-      "You cannot claim if anyone on the account has had a NatWest, RBS or Ulster Bank switch offer before.",
-      "Your account must not be a Student, Graduate, Foundation, Reward Black, Premier Select or Premier Reward account."
-    ],
-    "burnerFriendly": true,
-    "extraRequirements": [
-      "The £1,250 must stay in the account for at least 24 hours to count."
-    ]
-  },
-  {
-    "id": "rbs-200",
-    "bankName": "RBS Select",
-    "bonusAmount": 200,
-    "status": "active",
-    "directDebitsRequired": 0,
-    "minDepositRequired": 1250,
-    "appLoginRequired": true,
-    "timeToBonusDays": 60,
-    "description": "Get £200 free when you switch to an RBS Select or Reward account. No Direct Debits needed.",
-    "directSwitchUrl": "https://www.rbs.co.uk/current-accounts/switch-your-bank-account-to-rbs.html",
-    "termsUrl": "https://www.rbs.co.uk/content/dam/royal_bank_of_scotland/personal/current-accounts/documents/switch-offer-terms/rbs-switch-offer-terms-may-2026.pdf",
-    "rules": [
-      "Be a UK resident.",
-      "Open an RBS Select or Reward account.",
-      "Request a full switch using the Current Account Switch Service, closing your old account.",
-      "Within 60 days of the switch completing: pay in £1,250 and log in to the RBS mobile app.",
-      "The £1,250 must stay in the account for at least 24 hours to count."
-    ],
-    "exclusions": [
-      "You cannot claim if you held an RBS current account on 6 May 2026.",
-      "You cannot claim if anyone on the account has had an RBS, NatWest or Ulster Bank switch offer before.",
-      "Your account must not be a Student, Graduate, Foundation, Reward Black, Premier Select or Premier Reward account.",
-      "You cannot switch from an RBS, NatWest or Ulster Bank account."
-    ],
-    "burnerFriendly": true,
-    "extraRequirements": [
-      "The £1,250 must stay in the account for at least 24 hours to count."
     ]
   }
 ]
