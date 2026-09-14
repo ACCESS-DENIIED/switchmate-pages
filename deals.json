@@ -39,7 +39,7 @@
     "directSwitchUrl": "https://www.rbs.co.uk/current-accounts/switch-your-bank-account-to-rbs.html",
     "termsUrl": "https://www.rbs.co.uk/content/dam/royal_bank_of_scotland/personal/current-accounts/documents/switch-offer-terms/rbs-switch-offer-terms-may-2026.pdf",
     "rules": [
-      "Be a UK resident.",
+      "Live in the UK.",
       "Open an RBS Select or Reward account.",
       "Full switch using the Current Account Switch Service.",
       "Within 60 days of the switch completing: pay in £1,250 and log in to the RBS mobile app."
@@ -100,7 +100,7 @@
     "termsUrl": "https://www.santander.co.uk/assets/s3fs-public/documents/Santander_%C2%A3240_Switch_%26_Save_offer_Terms_and_conditions_%28%E2%80%98These_Terms%E2%80%99%29_COREMC0855SEP26PUBCDT%20.pdf",
     "rules": [
       "Open a Santander Everyday account. Full switch using the Current Account Switch Service.",
-      "Within 60 days: complete the switch, pay in £1,500, and have 2 active household Direct Debits.",
+      "Complete the switch, pay in £1,500, and have 2 active household Direct Debits.",
       "Also pay at least £200 into a Santander Regular Saver held in your name within 60 days.",
       "By 7 October 2026: start the switch from an account that is not Santander, cahoot or Cater Allen.",
       "Keep both the Regular Saver and the Everyday account open, with 2 active Household Direct Debits, on the day Santander pays the £240."
@@ -129,9 +129,9 @@
     "termsUrl": "https://www.firstdirect.com/content/dam/wpb/fsdt/en/documents/pdf/switch-offer-terms-and-conditions.pdf",
     "rules": [
       "Open a 1st Account on or after 9 September, while the offer is available.",
-      "Within 45 days: switch using the Current Account Switch Service with at least 2 Direct Debits or standing orders.",
-      "Within 45 days: pay in £1,000. This can be one payment or several.",
-      "Within 45 days: make at least 5 debit card payments and log in to online banking or the app."
+      "Switch using the Current Account Switch Service with at least 2 Direct Debits or standing orders.",
+      "Pay in £1,000. This can be one payment or several.",
+      "Make at least 5 debit card payments and log in to online banking or the app."
     ],
     "exclusions": [
       "You are already a first direct customer or have held any first direct product.",
@@ -157,7 +157,7 @@
     "rules": [
       "Open a FlexDirect account.",
       "Move your old card over with 2 regular monthly payments within 28 days.",
-      "Within 31 days: pay in £1,000 and make at least one card payment."
+      "Pay in £1,000 and make at least one card payment."
     ],
     "exclusions": [
       "You have had a Nationwide switch offer before, for a sole or joint account, since 2021.",
