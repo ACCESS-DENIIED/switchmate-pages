@@ -8,6 +8,7 @@
     "minDepositRequired": 1250,
     "depositHoldHours": 24,
     "appLoginRequired": true,
+    "appName": "NatWest app",
     "timeToBonusDays": 60,
     "description": "Get £200 free, plus regular cashback and a 5.25% savings rate.",
     "directSwitchUrl": "https://www.natwest.com/current-accounts/reward-account/",
@@ -34,6 +35,7 @@
     "minDepositRequired": 1250,
     "depositHoldHours": 24,
     "appLoginRequired": true,
+    "appName": "RBS app",
     "timeToBonusDays": 60,
     "description": "Get £200 free when you switch to an RBS Select or Reward account. No Direct Debits needed.",
     "directSwitchUrl": "https://www.rbs.co.uk/current-accounts/switch-your-bank-account-to-rbs.html",
@@ -61,6 +63,7 @@
     "minDepositRequired": 2000,
     "cardSpendRequired": 500,
     "appLoginRequired": true,
+    "appName": "HSBC UK app",
     "timeToBonusDays": 60,
     "description": "Get £220 free — the biggest switch cash around right now. Plus a 5% regular saver.",
     "directSwitchUrl": "https://www.hsbc.co.uk/current-accounts/products/bank-account/",
@@ -68,7 +71,7 @@
     "rules": [
       "Open a new HSBC Bank Account on their app (no joint accounts).",
       "Move your old card over within 60 days with 2 regular monthly payments connected.",
-      "Pay in £2,000 and spend £500 on the card within 60 days."
+      "Pay in £2,000 and spend £500 on your new card within 60 days."
     ],
     "exclusions": [
       "You are already an HSBC UK or first direct customer.",
@@ -90,6 +93,7 @@
     "directDebitsRequired": 2,
     "minDepositRequired": 1500,
     "appLoginRequired": false,
+    "appName": "Santander app",
     "extraRequirements": [
       "Pay at least £200 into a Santander Regular Saver held in your name within 60 days.",
       "Keep both the Regular Saver and the Everyday account open, with 2 active Household Direct Debits, on the day Santander pays the £240."
@@ -118,17 +122,22 @@
     "id": "first-direct-175",
     "bankName": "First Direct",
     "bonusAmount": 175,
+    "boostAmount": 35,
+    "boostWindow": { "from": "2026-09-14", "to": "2026-12-02" },
+    "sourceNote": "The £35 boost is stated on firstdirect.com. The offer terms PDF covers the £175 only and does not mention the boost.",
     "status": "active",
     "directDebitsRequired": 2,
     "minDepositRequired": 1000,
     "cardPaymentsRequired": 5,
     "appLoginRequired": true,
+    "appName": "first direct app",
     "timeToBonusDays": 45,
     "description": "Get £175 free, top customer service and a 0% overdraft.",
     "directSwitchUrl": "https://www.firstdirect.com/banking/current-accounts/1st-account/",
     "termsUrl": "https://www.firstdirect.com/content/dam/wpb/fsdt/en/documents/pdf/switch-offer-terms-and-conditions.pdf",
     "rules": [
       "Open a 1st Account on or after 9 September, while the offer is available.",
+      "Open the account between 14 September and 2 December 2026 to get the extra £35.",
       "Switch using the Current Account Switch Service with at least 2 Direct Debits or standing orders.",
       "Pay in £1,000. This can be one payment or several.",
       "Make at least 5 debit card payments and log in to online banking or the app."
@@ -150,6 +159,7 @@
     "minDepositRequired": 1000,
     "cardPaymentsRequired": 1,
     "appLoginRequired": true,
+    "appName": "Nationwide app",
     "timeToBonusDays": 31,
     "description": "Get £175 free, plus 5% interest on up to £1,500 for a year and 1% cashback for 12 months.",
     "directSwitchUrl": "https://www.nationwide.co.uk/current-accounts/flexdirect/",
